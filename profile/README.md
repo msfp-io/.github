@@ -3,8 +3,9 @@
 MSFP lets media servers share their libraries with each other. People on
 one server browse and play the titles another server holds, through their
 own server, with their own account. No central service is involved: two
-operators pair their servers by hand, and each trusts only the servers it
-paired with.
+operators pair their servers by hand, or friends' servers pair through a
+group they joined with one code each, and each server trusts only the
+servers it paired with.
 
 The protocol belongs to no server. Any media server can implement it and
 pair with any other that does, whatever it is written in.
@@ -12,11 +13,11 @@ pair with any other that does, whatever it is written in.
 ## Here
 
 - [msfp-spec](https://github.com/msfp-io/msfp-spec): the specification
-  (version 0, spoken today; version 1, a draft), test vectors and a
-  conformance suite.
-
-Libraries in Go and .NET, taken from the first implementations, will come
-here once the specification settles.
+  (version 0, a draft until version 1), test vectors and a conformance
+  suite.
+- [msfp-go](https://github.com/msfp-io/msfp-go): the engine for Go.
+- [msfp-dotnet](https://github.com/msfp-io/msfp-dotnet): the engine for
+  .NET (NuGet: Msfp.Engine).
 
 ## Implementations
 
