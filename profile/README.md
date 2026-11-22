@@ -17,7 +17,7 @@ pair with any other that does, whatever it is written in.
   suite.
 - [msfp-go](https://github.com/msfp-io/msfp-go): the engine for Go.
 - [msfp-dotnet](https://github.com/msfp-io/msfp-dotnet): the engine for
-  .NET (NuGet: Msfp.Engine).
+  .NET (NuGet: Msfp.Engine and Msfp.Protocol).
 
 ## Implementations
 
