@@ -15,6 +15,9 @@ pair with any other that does, whatever it is written in.
 - [msfp-spec](https://github.com/msfp-io/msfp-spec): the specification
   (version 0, a draft until version 1), test vectors and a conformance
   suite.
+- [msfp-media](https://github.com/msfp-io/msfp-media): MSFP Media,
+  the language for media that MSFP carries between servers and a
+  product's API can carry between its players and its server.
 - [msfp-go](https://github.com/msfp-io/msfp-go): the engine for Go.
 - [msfp-dotnet](https://github.com/msfp-io/msfp-dotnet): the engine for
   .NET (NuGet: Msfp.Engine and Msfp.Protocol).
